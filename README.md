@@ -21,3 +21,5 @@ Move the validation logic in the GET /notes/:noteId route handler into its own m
 
 Move the validation logic in the POST /notes route handler into its own middleware function. In the event of an error, your validation middleware should call next() with an error object (i.e., { status: ..., message: ...}) as the argument so that it can be passed along to the error handler.
 Hint: if the text property is missing from the body of the POST, return the following error message: "A 'text' property is required."
+
+Holly Ellington
